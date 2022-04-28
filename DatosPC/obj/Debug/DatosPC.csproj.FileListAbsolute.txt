@@ -1,0 +1,14 @@
+C:\Users\mrami\source\repos\DatosPC\DatosPC\bin\Debug\DatosPC.exe.config
+C:\Users\mrami\source\repos\DatosPC\DatosPC\bin\Debug\DatosPC.exe
+C:\Users\mrami\source\repos\DatosPC\DatosPC\bin\Debug\DatosPC.pdb
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.csprojAssemblyReference.cache
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.Properties.Resources.resources
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.csproj.GenerateResource.cache
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.csproj.CoreCompileInputs.cache
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.exe
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.pdb
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.Form1.resources
+C:\Users\mrami\source\repos\DatosPC\DatosPC\bin\Debug\DatosPC.exe.manifest
+C:\Users\mrami\source\repos\DatosPC\DatosPC\bin\Debug\DatosPC.application
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.exe.manifest
+C:\Users\mrami\source\repos\DatosPC\DatosPC\obj\Debug\DatosPC.application

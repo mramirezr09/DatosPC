@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DatosPC.exe" version="1.0.0.2" publicKeyToken="22faac286846ecef" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DatosPC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DatosPC.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de Control de cuentas de usuario
+          Si quiere cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el
+          nodo requestedExecutionLevel por alguno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar la virtualización de archivos y del Registro para la
+         compatibilidad con versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DatosPC.exe" size="17376">
+      <assemblyIdentity name="DatosPC" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MlNANEKzsSk/LPX+F0x/g1jhwU0PSeQtXtvkoW7IXlc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DatosPC.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-KVPNC2P\mrami" issuerKeyHash="b4031d7f47d7a3025c6309b29aaec9972f17cf4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>emXulcYyxUKyC55FdFQKrZVIMHj6R6fAjWj7NfjiFhs=</DigestValue></Reference></SignedInfo><SignatureValue>pYxE8s8MNhewl/m1ynqLZ748FEibnrtNPLsIES4Z/JWMyvu5etULtPh0eaH4hLVp/XXaKa2ANGQFU1sOv6j9tkClOngYA0U1cUa3FbB3V2Kw4hv+P1jj0JJjhaGaRPllmVhW9sr0qOPBAlC8eKd+UiZN5mTXOtM0YY9SAqDM7gA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>17kfLGwo6wrtda28NnX366t7Nc3LkQ0ZORkAlY2PDVgI+d4NK7BScxZFp6F92xa9VuF1WaIEPz55qc0qpjHQSmH8tvZ0OZ0OwutZU7JNArgKnWtQ/3Bqi9lk1+vT2y5BpR5L1uO0hsA36ojX+/v2Tj5DY4o6MLnC3Yyku62rhX0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1b16e2f835fb688dc0a747fa78304895ad0a5474459e0bb242c532c695ee657a" Description="" Url=""><as:assemblyIdentity name="DatosPC.exe" version="1.0.0.2" publicKeyToken="22faac286846ecef" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-KVPNC2P\mrami</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>179ifKBhoAp6V5an35yBgGAVLVq9oqJ5QgU1TyCEKK0=</DigestValue></Reference></SignedInfo><SignatureValue>MVi+wyf6a/QGHkGFoJPS/cBtm4uNjri687j1tq0vgfE8a+foTujayjaFfupHPTbY8ogiKP+jb2Ay5X3Fud3sSzMOUeOulna6/aTsA9uQncSDTdx/maitxJHtVH5jkMp4LG438sm4T73GmGn2MJXc/HgN6TruBQNO14iIzSwvapY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>17kfLGwo6wrtda28NnX366t7Nc3LkQ0ZORkAlY2PDVgI+d4NK7BScxZFp6F92xa9VuF1WaIEPz55qc0qpjHQSmH8tvZ0OZ0OwutZU7JNArgKnWtQ/3Bqi9lk1+vT2y5BpR5L1uO0hsA36ojX+/v2Tj5DY4o6MLnC3Yyku62rhX0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQZ2WiQntXeoZIheBnzea7pzANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAVgBQAE4AQwAyAFAAXABtAHIAYQBtAGkwHhcNMjExMTAzMDYyNDE0WhcNMjIxMTAzMTIyNDE0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEsAVgBQAE4AQwAyAFAAXABtAHIAYQBtAGkwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANe5HyxsKOsK7XWtvDZ19+urezXNy5ENGTkZAJWNjw1YCPneDSuwUnMWRaehfdsWvVbhdVmiBD8+eanNKqYx0Eph/Lb2dDmdDsLrWVOyTQK4Cp1rUP9waovZZNfr09suQaUeS9bjtIbAN+qI1/v79k4+Q2OKOjC5wt2MpLutq4V9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAW1IWOuQJx7awaJhWfp7dgCljYhw4M2jR/wj/3OyBU5sMg7LA0wK6oGFeenCI95gU/wdur4+/YHJ3mjuxu4idKKt7/iEITnQvg3hVEZwg6FFfYgdmD68IvBZZ10gcNnxs0vPKFlelacUX/i3FZ3IhZ2es3Xq8MKW3QEQuaFAzm9o=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
